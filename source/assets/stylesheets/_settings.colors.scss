@@ -214,10 +214,10 @@
 
 /* Brand */
 
-$color-brand-primary:             #d3461f;
-$color-brand-secondary:           #00b09c;
+$color-brand-primary:             #0033a0;
+$color-brand-secondary:           #2468e0;
 $color-brand-tertiary:            #1d242a;
-$color-brand-quaternary:          #222;
+$color-brand-quaternary:          #444;
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
@@ -249,6 +249,8 @@ $color-text-strong-invert:        rgba(255,255,255,.9);
  */
 
 $color-link:                 $color-brand-primary;
+$color-nav-sub-a:                   #fff;
+$color-nav-hover:                   #fff;
 $color-link-hover:           shade($color-link, 10%);
 $color-link-focus:           shade($color-link, 20%);
 $color-link-visited:         tint($color-link, 20%);
@@ -373,8 +375,8 @@ $color-button-inactive:           #eeeeee;
  * Helper colors
  */
 
-$color-text-heading-1:            $color-brand-tertiary;
-$color-text-heading-2:            $color-text-strong;
+$color-text-heading-1:            $color-brand-primary;
+$color-text-heading-2:            $color-brand-tertiary;
 $color-text-heading-3:            $color-text-strong;
 $color-text-heading-4:            $color-text-strong;
 $color-text-paragraph:            $color-text;
