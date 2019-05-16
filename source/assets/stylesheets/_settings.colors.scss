@@ -320,7 +320,7 @@ $color-border-strong:             $color-grey-30;
  * Messages
  */
 
-$color-message-default:           #eeeeee;
+$color-message-default:           #eeeeef;
 $color-message-success:           #00a664;
 $color-message-warning:           #ffcb05;
 $color-message-danger:            #f04e3e;
@@ -360,8 +360,8 @@ $color-input-radio-active:        $color-brand-primary;
  * Buttons
  */
 
-$color-button-regular:            $color-grey-10;
-$color-button-regular-hover:      $color-grey-20;
+$color-button-regular:            $color-brand-primary;
+$color-button-regular-hover:      shade($color-brand-primary, 10%);
 $color-button-primary:            $color-brand-primary;
 $color-button-primary-hover:      shade($color-button-primary, 10%);
 $color-button-secondary:          $color-brand-secondary;

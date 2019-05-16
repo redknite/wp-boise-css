@@ -210,7 +210,7 @@
   &:focus,
   &.focus {
 
-    color: $color-text-strong;
+    color: $color-brand-secondary;
     background-color: $color-link-hover;
 
   }
@@ -286,7 +286,7 @@
     &:hover > a,
     &.focus > a {
 
-      color: $color-text-strong;
+      color: $color-brand-secondary;
       background-color: $color-link;
 
       &:after {
@@ -374,7 +374,7 @@
 
       padding: rem(10) $unit-s;
 
-      color: $color-text;
+      color: $color-nav-sub-a;
 
     }
 

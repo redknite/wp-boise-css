@@ -40,13 +40,13 @@
   font-size: ms(0);
   line-height: ms(2);
   text-align: center;
-  color: $color-text;
+  color: $color-text-invert;
   font-family: $font-brand-primary;
   font-weight: $bold;
   text-decoration: none;
 
   /* Visual */
-  background-color: $color-button-regular;
+  background-color: $color-button-primary;
   border-radius: $border-radius-small;
   border-color: transparent;
 
@@ -59,7 +59,7 @@
   &:active {
 
     color: $color-text-strong;
-    background-color: $color-button-regular-hover;
+    background-color: $color-button-primary-hover;
     text-decoration: none;
 
   }
